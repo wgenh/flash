@@ -14,10 +14,8 @@
 # testing
 /coverage
 
-# svelte-kit
-.svelte-kit
 # production
-/build
+/out
 
 # misc
 .DS_Store
