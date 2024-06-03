@@ -3,7 +3,7 @@
     import fastbootPorts from "./assets/fastboot-ports.svg";
     import zadigCreateNewDevice from "./assets/zadig_create_new_device.png";
     import zadigForm from "./assets/zadig_form.png";
-    const version = import.meta.env.version || "dev";
+    const version = import.meta.env.VITE_PUBLIC_GIT_SHA || "dev";
     import Flash from "./flash.svelte";
 </script>
 
