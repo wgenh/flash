@@ -6,7 +6,7 @@ import { svelteTesting } from '@testing-library/svelte/vite';
 export default defineConfig({
 	root: "src",
 	build: {
-		outDir: "out"
+		outDir: "../out"
 	},
 	plugins: [svelte(), svelteTesting()],
 	test: {
